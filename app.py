@@ -53,7 +53,7 @@ while True  :
     ret, frame = video_capture.read() #capture video frame
 
     small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25) # resize
-    rgb_small_frame = small_frame[:, :, ::-1] 
+    rgb_small_frame = np.ascontiguousarray(small_frame[:, :, ::-1])
 
     if process_this_frame:
 
