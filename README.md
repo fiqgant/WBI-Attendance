@@ -35,30 +35,30 @@ pip install -r requirements.txt
 
 1. **Clone the repository:**
 
-```bash
-git clone https://github.com/fiqgant/WBI-Attendance.git
-cd WBI-Attendance
-```
+    ```bash
+    git clone https://github.com/fiqgant/WBI-Attendance.git
+    cd WBI-Attendance
+    ```
 
 2. **Register New Students:**
 
-   Use the `data.py` script to register new students. The script will capture 5 images from the webcam and store their facial encodings.
+    Use the `data.py` script to register new students. The script will capture 5 images from the webcam and store their facial encodings.
 
-   ```bash
-   python data.py
-   ```
+    ```bash
+    python data.py
+    ```
 
-   Follow the prompts to enter the student's name and NIM.
+    Follow the prompts to enter the student's name and NIM.
 
 3. **Start Face Recognition:**
 
-   Run the `app.py` script to start real-time face recognition and attendance logging.
+    Run the `app.py` script to start real-time face recognition and attendance logging.
 
-   ```bash
-   python app.py
-   ```
+    ```bash
+    python app.py
+    ```
 
-   Press `q` to quit the program.
+    Press `q` to quit the program.
 
 ## Flowchart
 
